@@ -1,5 +1,7 @@
 food-display{
    margin-top: 30px; 
+   column-gap: 100px;
+   border-radius: 10px;
 }
 .food-display h2{
     font-size: max(2vw 24px);
@@ -7,8 +9,10 @@ food-display{
 }
 .food-display-list{
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(240px,1fr));
     margin-top: 30px;
-    gap: 30px;
+    gap: 50px;
     row-gap: 50px;
+    column-gap: 110px;
+    border-radius: 10px;
 }
